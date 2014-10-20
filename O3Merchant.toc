@@ -1,0 +1,13 @@
+## Interface: 60000
+## DefaultState: Enabled
+## Title: |cFF007FFFO3|r Merhcant
+## Author: Oz
+## Version: 0.1
+## Notes: O2 Merchant
+## RequiredDeps: O3
+
+BuybackWindow.lua
+FilterPanel.lua
+RepairPanel.lua
+MerchantWindow.lua
+Merchant.lua

@@ -107,7 +107,6 @@ ns.MerchantWindow = UI.ItemListWindow:extend({
 								buyCountControl._parent.hook(buyCountControl)
 								buyCountControl.frame:SetScript('OnChar', function (control)
 									item.buyCount = control:GetNumber() or 1
-									print(item.buyCount)
 								end)
 							end,
 						})

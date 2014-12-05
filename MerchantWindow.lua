@@ -14,6 +14,7 @@ ns.MerchantWindow = UI.ItemListWindow:extend({
 	offset = {100, nil, 100, nil},
 	managed = true,
 	filterText = '',
+	closeWithEscape = true,
 	getNumItems = function (self)
 		self.numItems = GetMerchantNumItems()
 	end,
